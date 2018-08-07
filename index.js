@@ -21,15 +21,5 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-    if (message.content === prefix + "test" ){  
-
-        const embed = new Discord.RichEmbed()
-        .setTitle(``)
-        .setColor(0xcc0099)
-        .setDescription("coucou :3")
-        message.channel.send({embed});
-    }
-
-
 }
 )
